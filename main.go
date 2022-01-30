@@ -62,4 +62,5 @@ func main() {
 	fish_history_path := check_fish_history_file()
 	file_array := linesInFile(fish_history_path)
 	convert_history(file_array)
+	log.Printf("The conversion has been successfully completed! The result is saved to the file ~/.zsh_history.convert, then you need to replace you current file ~/.zsh_history. For example:  cp ~/.zsh_history ~/.zsh_history.backup && mv ~/.zsh_history.convert ~/.zsh_history")
 }
