@@ -17,5 +17,5 @@ $ cp ~/.zsh_history ~/.zsh_history.backup && \
 ```
 4. Cleanup after work:
 ```
-rm fish_to_zsh_history fish_to_zsh_history-v*
+$ rm fish_to_zsh_history fish_to_zsh_history-v*
 ```
